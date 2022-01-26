@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+:root{
+    --light-red: #F5E2E0;
+    --red: #C0353C;
+    --grey: #5b5b5b;
+    --light-grey: #b8bdc2;
+    --lighter-grey:#e0e4e7;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #f4f4f4;
+}
+
+h1{
+    font-size: 2em;
+}
+
+img{
+    height: 10em;
+    border-radius: 0.2em;
+}
+
+button{
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.main-container{
+    max-width: 50rem;
+    padding: 1rem;
+    margin: auto;
+}
+.container{
+    border-radius: 0.3rem;
+    background-color: var(--lighter-grey);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center; 
+}
+.card{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;  
+    background-color: white;
+    border-radius: 0.2em;  
+    box-shadow: 0.1rem;
+}
+.card-btn{
+    border-radius: 0.2rem;
+    font-weight: bold;
+    color: var(--red);
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    padding: 0.3rem;
+    font-weight: 700;
+}
+.card-icon{
+    border-radius: 50%;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    padding: 0.5rem;
+}
+
+.card-icon:hover{
+    transition: 0.5s;
+    background-color: var(--lighter-grey);
+}
+.card-btn:hover{
+    transition: 0.5s;
+    background-color: var(--light-red);
+}
+
+.clr-grey{
+    color: var(--grey);
+}
+
+.card-title{
+    font-weight: 400;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    padding: 0.3rem;
+}
+
+.card-text{
+    font-weight: 300;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    padding: 0.3rem;
+}
+
+.card-author{
+    font-weight: 300;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    padding: 0.3rem;
+}
+
+.position-rltv{
+    position: relative;
+}
+
+.position-abslt-ct{
+    position: absolute;
+    bottom: 80px;
+    left: 2px;
+}
+
+.position-abslt-ca{
+    position: absolute;
+    bottom: 60px;
+    left: 2px;
+}
+
+.flex-order-2{
+    order:2
+}
+
+.flex-order-1{
+    order: 1;
+}
+
+.flex-order-0{
+    order: 0;
+}
+
+.display-n{
+    display: none;
+}
+
+.margin-lft-auto{
+    margin-left: auto;
+}
+
+.img-sml{
+    height: 100px;
+    width: 100px;
+}
+
+.disp-flex{
+    display: flex;
+}
+
