@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+:root{
+    --light-red: #F5E2E0;
+    --red: #C0353C;
+    --light-red: #ecabae;
+    --grey: #5b5b5b;
+    --light-grey: #b8bdc2;
+    --lighter-grey:#e0e4e7;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    background: rgb(70, 70, 240);
+    color: white;
+    border:0.5px solid black;
+    padding: 0.4em;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.main__container{
+    max-width: 50rem;
+    padding: 1rem;
+    margin: 2rem auto;
+    background-color: var(--lighter-grey);
+}
+
+.badge__container{
+   margin-top: 2em;
+}
+
+.badge__text{
+    position: relative;
+}
+
+.badge{
+    position: absolute;
+    color: var(--red);
+    border-radius: 50%;  
+    background-color: var(--light-red);
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    top: -10px;
+    left: 120px;
+    /* line-height: 22px; */
+}
+
+.large_badge{
+    font-size: 25px;
+    width: 29px;
+    height: 29px;
+    top: -13px;
+    left: 160px;
+}
+.btn__badge{
+    left:190px;
+}
+.btn--toggle{
+    background-color: white;
+    border: none;
+    color: black;
+}
+.toggle_badge{
+    left: 210px;
+    top: -12px;
+}
+
+.btn_icon{
+    background: none;
+    border: none;
+    color: black;
+    font-size: 2rem;
+}
+.icon_badge{
+    left: 165px;
+    top: 1.5px;
+}

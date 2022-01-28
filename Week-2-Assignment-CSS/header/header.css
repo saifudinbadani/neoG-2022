@@ -17,7 +17,6 @@
 
 nav{
     display: flex;
-    height: 2.5rem;
     max-width: 60rem;
     margin: 2em auto;
     background-color: lightseagreen;
@@ -32,12 +31,16 @@ button{
     background: none;
     border: none;
     cursor: pointer;
-    padding: 0.6em;
+    padding: 1em;
     margin: 0em 0.2em;
     border-radius: 999px;
 }
 
 button:hover{
     background-color: rgb(139, 238, 233);
+}
+
+.margin-top-3pt5rem{
+    margin-top: 3.5rem;
 }
 
