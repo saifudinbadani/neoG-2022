@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+:root{
+    --light-red: #F5E2E0;
+    --red: #C0353C;
+    --light-red: #ecabae;
+    --grey: #5b5b5b;
+    --light-grey: #b8bdc2;
+    --lighter-grey:#e0e4e7;
+    --light-black: #444546;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.snackbar__main{
+    position: fixed;
+    left: 40%;
+    bottom: 10%;
+    background-color: var(--light-black);
+    color: var(--lighter-grey);
+    max-width: 35rem;
+    padding: 0.5em 0em;
+    border-radius: 2px;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+.snackbar__btn{
+    color: lightcoral;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.margin-rl-pt6em{
+    margin-right: 0.6em;
+    margin-left: 0.6em;
+    margin-bottom: 0.6em;
+    
+}
