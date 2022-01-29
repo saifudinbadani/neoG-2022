@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+:root{
+    --light-red: #F5E2E0;
+    --red: #832b2f;
+    --light-red: #ecabae;
+    --grey: #5b5b5b;
+    --light-grey: #7c7f81;
+    --lighter-grey:#e0e4e7;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+ margin: 0 0.3rem 1rem 0.3rem;
+}
+
+h5{
+    margin:0rem 0.3rem 1rem 0.3rem; ;
+}
+
+.main__container{
+    max-width: 50rem;
+    margin: auto;
+    padding: 2rem;
+}
+.dialog__container-alert{
+    width: 15rem;
+    height: 9rem;
+    background-color: var(--lighter-grey);
+    color: #303131;
+}
+
+.dialog__btn_section{
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+}
+.dialog__btn{
+    background: none;
+    border: none;
+    color: var(--red);
+    padding: 0.5rem;
+    margin: 0.5rem 0.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+.dialog__btn:hover{
+    background-color: var(--light-red);
+    transition: 0.5s;
+}
+
+.font-wght-400{
+    font-weight: 400;
+}
+
+.dialog-simple{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lighter-grey);
+    max-width: 15rem;
+}
+
+.h2--simple{
+    margin: 0.5rem 0.5rem;
+}
+
+.fas{
+    margin-right: 20px;
+}
